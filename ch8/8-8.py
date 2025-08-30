@@ -54,3 +54,15 @@ def make_album():
 
 # call the function
 make_album()
+
+''' Postmortem: 드디어 풀었다! ＼\ ٩( ᐛ )و /／
+◦ num_of_songs -> user input 값은 숫자라도 String! (분하다.. 알고 있었는데...)
+    • 유저가 0을 입력해도 타입이 스트링이기 때문에 num_of_songs == '0' (그냥 0으로 쓰면 안 됨!)
+◦ 제멋대로 오해하고 있었던 부분: 
+    • 함수 마지막에 return 써야 한다고 생각
+    • user input album info가 dictionary에 누적되어 담겨야 한다고 생각
+        • 실제로는 그냥 3가지 정보를 받은 후 정의한 포맷에 맞게 출력해 주면 됨
+        • 한 번에 하나의 앨범 정보(3가지 정보)를 포맷대로 보여주기만 하면 됨
+◦ 불필요했던 부분:
+    • dictionary에 value를 변수로 추가한다고 정의한 후 다시 dictionary에 key에 맞춰 value를 추가하라고 할 필요 없음
+'''
