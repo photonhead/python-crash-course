@@ -14,7 +14,7 @@ To run any of the practice files in this repository, you'll need to have Python 
 ### Copyright
 
 **My Code**
-- Copyright (c) 2025 [photonhead]
+- Copyright (c) 2025 [photonhead] 
 
 **Book Content**
 - This repository contains code and exercises from the book *Python Crash Course, 3rd Edition* by Eric Matthes. All rights to the original content are reserved by the author.
